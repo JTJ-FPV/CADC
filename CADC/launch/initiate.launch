@@ -1,0 +1,4 @@
+<launch>
+    <node name="cadc_point" pkg="CADC" type="CADC" respawn_delay="5" output="screen" />
+    <node name="takeoff" pkg="CADC" type="takeoff" output="screen"/>
+</launch>
